@@ -1,8 +1,8 @@
 def alphabetize(arr)
-  esp_alph = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  esp_alph = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split("")
   esp_hash = {}
   
-  esp_alph.each_ch
+  puts esp_alph
 end
 
 
