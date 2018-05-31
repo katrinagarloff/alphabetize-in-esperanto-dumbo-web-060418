@@ -1,9 +1,9 @@
 def alphabetize(arr)
-  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  esp_alph = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   
-  ESP_MAP = ESPERANTO_ALPHABET.each_char.with_index.to_a.to_h
+  esp_map = esp_alph.each_char.with_index.to_a.to_h
   
-  puts ESP_MAP
+  puts esp_map
 end
 
 
