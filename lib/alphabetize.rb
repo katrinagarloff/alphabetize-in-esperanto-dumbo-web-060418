@@ -7,4 +7,4 @@ def alphabetize(arr)
 end
 
 
-def alphabetize
+def alphabetize(["ĝuste", "ĝis revido"])
