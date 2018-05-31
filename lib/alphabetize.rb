@@ -1,9 +1,10 @@
 def alphabetize(arr)
-  esp_alph = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz".split("")
-  esp_hash = {}
+  esp_alph = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   
-  puts esp_alph
+  esp_map = esp_alph.each_char.with_index.to_a.to_h
+  
+  puts esp_map
 end
 
 
-def alphabetize(["ĝuste", "ĝis revido"])
+alphabetize(["ĝuste", "ĝis revido"])
